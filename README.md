@@ -49,8 +49,8 @@ We welcome [contributions](CONTRIBUTING.md) to this guide.
 Return appropriate HTTP status codes with each response. Successful
 responses should be coded according to this guide:
 
-* `200`: Request succeeded for a `GET` calls, and for `DELETE` or
-  `PATCH` calls that complete synchronously
+* `200`: Request succeeded for a `GET` call, and for a `DELETE` or
+  `PATCH` call that completes synchronously
 * `201`: Request succeeded for a `POST` call that completes
   synchronously
 * `202`: Request accepted for a `POST`, `DELETE`, or `PATCH` call that
